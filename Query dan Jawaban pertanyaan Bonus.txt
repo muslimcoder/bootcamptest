@@ -1,0 +1,13 @@
+Querynya
+
+SELECT posts.title, users.username, comments.comment
+FROM (posts INNER JOIN users on posts.idusers=users.id)
+INNER JOIN comments on posts.idposts=comments.postId;
+
+Jawaban Soal Bonus saya :
+Anda ditunjuk sebagai CEO di suatu perusahaan yg based productnya adalah sabun batang. Mereka mempunyai kendala dengan mesin produksinya, yang mana mesinnya sometime tidak mengisikan sabun ke kardus, sehingga mengakibatkan ada beberapa kotak sabun yang kosong (BUG). Bagaimanakah cara Anda sebagai CEO untuk mengatasi problem tersebut?
+
+
+e. jawaban lain, saya akan melakukan pengecekan dan memperbaiki mesin produksi tersebut karena harus butuh cepat soalnya,
+   setelah betul maka saya akan Membuat AI (robot/mesin) untuk melakukan pengecekan
+   sehingga dikemudian hari tidak lagi rusak dan bisa terkendali dengan cepat ketika terjadi kerusakan

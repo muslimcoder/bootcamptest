@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Layout Sederhana</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.header a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.header a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.body {
+    background-color: #ddd;
+    padding: 10px;
+    height: 200px; 
+}
+
+
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+table {
+    border: 1px solid black; 
+    background-color:#B6FF82
+  }
+  td {
+    border: 1px solid black
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <a href="#">Home</a>
+  <a href="#">Buku Tamu</a>
+  <a href="#">Kontak Kami</a>
+</div>
+
+<div class="body">
+  <h2>Body Website</h2>
+  <table>
+  <tr><td>No</td><td>Nama Lengkap</td><td>Telepon</td><td>Alamat</td>
+  </tr>
+  <tr><td>1</td><td>Rosid Mustofa</td><td>0816337680</td><td>Kedungbanteng Kabupten Tegal</td>
+  </table>
+</div>
+
+<div class="footer">
+  <p>Created By Rosid Mustofa</p>
+</div>
+
+</body>
+</html>
